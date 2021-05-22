@@ -1,0 +1,15 @@
+.contains-cards{
+    margin:50px auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+@media screen and (min-width:550px){
+    .contains-cards{
+        flex-direction:row;
+        flex-wrap:wrap;
+
+    }
+}

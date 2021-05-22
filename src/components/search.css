@@ -1,0 +1,10 @@
+[name=robot-search]{
+    width:50%;
+    max-width:250px;
+    text-align:center;
+    height:30px;
+    font-size:1rem;
+    border-radius:10px;
+    background-color:gainsboro;
+}
+

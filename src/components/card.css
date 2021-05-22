@@ -1,0 +1,28 @@
+img{
+    width:90%;
+    max-width:250px;
+}
+
+.card{
+    width:80%;
+    height:300px;
+    background-color:hsl(175, 44%, 54%);
+    text-align:center;
+    margin-right:10px;
+    max-width:300px;
+    margin-top:10px;
+    font-size:1rem;
+    border-radius:10px;
+}   
+
+.robots-h2{
+    font-size:18px;
+}
+
+@media screen and (min-width:500px){
+    .card{
+        flex-basis:20%;
+        min-width:200px;
+    }
+
+}
